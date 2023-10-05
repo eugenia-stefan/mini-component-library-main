@@ -43,7 +43,7 @@ const Select = ({ label, value, onChange, children }) => {
         {children}
       </SelectElem>
       <IconWrapper style={{ "--size": 24 + "px" }}>
-        <Icon id="chevron-down" strokeWidth={2} size={24} />
+        <Icon id="search" strokeWidth={2} size={24} />
       </IconWrapper>
     </Wrapper>
   );
